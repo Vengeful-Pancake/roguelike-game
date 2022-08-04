@@ -42,7 +42,5 @@ def main() -> None:
 
             engine.handle_events(events)
 
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxx
 if __name__ == "__main__":
     main()
