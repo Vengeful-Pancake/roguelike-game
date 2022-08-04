@@ -26,12 +26,12 @@ def main() -> None:
     game_map = GameMap(map_width, map_height)
 
     engine = Engine(entities=entities, event_handler=event_handler, game_map=game_map, player=player)
-    
+
     with tcod.context.new_terminal(
         screen_width,
         screen_height,
         tileset=tileset,
-        title="Yet Another Roguelike Tutorial",
+        title="Roguelike Game",
         vsync=True,
     ) as context:
         root_console = tcod.Console(screen_width, screen_height, order="F")
@@ -43,6 +43,6 @@ def main() -> None:
             engine.handle_events(events)
 
 
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxx
 if __name__ == "__main__":
     main()
